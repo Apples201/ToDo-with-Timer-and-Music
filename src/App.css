@@ -81,6 +81,10 @@ form button:hover {
   padding: 0rem 0.5rem;
 }
 
+.todo-hidden{
+  display: none;
+}
+
 .fa-trash,
 .fa-check {
   pointer-events: none;
