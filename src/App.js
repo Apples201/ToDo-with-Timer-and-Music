@@ -59,8 +59,9 @@ function App() {
   return (
     <div className="App">
      <header>
-      <h1>ToDo List</h1>
+      <h1>ToDo List And Timer</h1>
      </header>
+     <Timer/>
      <Form 
       inputText={inputText} 
       todos={todos} 
