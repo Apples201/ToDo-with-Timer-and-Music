@@ -4,6 +4,7 @@ import './App.css';
 //IMPORT COMPONENTS TIME
 import Form from "./components/Form";
 import TodoList from "./components/TodoList";
+import Timer from "./components/Timer";
 
 function App() {
   //STATE CONSTANTS
@@ -35,10 +36,11 @@ function App() {
 
 
   return (
-    <div className="App">
+    <div className="App container-fluid">
      <header>
       <h1>ToDo List</h1>
      </header>
+     <Timer/>
      <Form 
       inputText={inputText} 
       todos={todos} 
