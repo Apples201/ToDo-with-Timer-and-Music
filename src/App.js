@@ -5,6 +5,7 @@ import './App.css';
 import Form from "./components/Form";
 import TodoList from "./components/TodoList";
 import Timer from "./components/Timer";
+import RainNoise from "./components/RainNoise";
 
 function App() {
   //STATE CONSTANTS
@@ -40,6 +41,7 @@ function App() {
      <header>
       <h1>ToDo List</h1>
      </header>
+     <RainNoise/>
      <Timer/>
      <Form 
       inputText={inputText} 
