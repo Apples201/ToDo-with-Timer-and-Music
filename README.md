@@ -1,5 +1,5 @@
-ProjectV3 is available to use here:
-https://apples201.github.io/ToDo-with-Timer-and-Music/build/
+RefocusV3 is available to use here:
+https://apples201.github.io/RefocusV3/build/
 
 # Getting Started with Create React App
 
