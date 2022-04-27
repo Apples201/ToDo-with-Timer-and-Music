@@ -39,7 +39,7 @@ function App() {
   return (
     <div className="App container-fluid">
      <header>
-      <h1>ToDo List</h1>
+      <h1>Refocus V3</h1>
      </header>
      <RainNoise/>
      <Timer/>

@@ -1,12 +1,28 @@
-import React from "react";
+import React, {useState} from "react";
 
 const RainNoise = () =>{
+    const [paused, setPaused] = useState(true);
+
+    const togglePaused = (e) =>{
+        e.preventDefault();
+        const player = document.getElementById("audioPlayer");
+        if(paused){
+            setPaused(false);
+            player.play();
+        }
+        else{
+            setPaused(true);
+            player.pause();
+        }
+    }
     return(
-        <div className="ForestNoise">
-            <h1>ForestNoise goes here</h1>
-            <audio controls loop>
-                <source src={process.env.PUBLIC_URL + 'LightRainShower.mp3'}></source>
+        <div className="rainNoise">
+            <audio loop id="audioPlayer">
+                <source src={process.env.PUBLIC_URL + 'LightRainShower.mp3'} type ="audio/ogg"></source>
             </audio>
+            <button onClick={togglePaused}>
+                {(paused)?("Play"):("Pause")}
+            </button>
         </div>
     );
 };
