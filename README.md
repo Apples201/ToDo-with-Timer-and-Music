@@ -1,5 +1,5 @@
-Project is available to use here:
-https://apples201.github.io/Todo-List/build/
+ProjectV3 is available to use here:
+https://apples201.github.io/ToDo-with-Timer-and-Music/build/
 
 # Getting Started with Create React App
 
