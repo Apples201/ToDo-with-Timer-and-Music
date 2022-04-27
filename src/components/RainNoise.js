@@ -18,7 +18,7 @@ const RainNoise = () =>{
     return(
         <div className="rainNoise">
             <audio loop id="audioPlayer">
-                <source src={process.env.PUBLIC_URL + 'LightRainShower.mp3'} type ="audio/ogg"></source>
+                <source src={process.env.PUBLIC_URL + '/LightRainShower.mp3'} ></source>
             </audio>
             <button onClick={togglePaused}>
                 {(paused)?("Play"):("Pause")}

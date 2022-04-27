@@ -15,7 +15,7 @@ const Timer = () =>{
                 setTimeLeft(1500);
             }
             setWorking(!working);
-            var audio = new Audio(process.env.PUBLIC_URL + 'ShortBellRing.mp3');
+            var audio = new Audio(process.env.PUBLIC_URL + '/ShortBellRing.mp3');
             audio.play();
             return;};
         const intervalId = setInterval(() => {
