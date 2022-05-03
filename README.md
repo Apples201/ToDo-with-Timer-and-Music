@@ -13,7 +13,7 @@ Run the following commands
 ### `npm start`
 \
 \
-\
+The project should open shortly in a development build at [http://localhost:3000](http://localhost:3000)
 
 # Getting Started with Create React App
 
