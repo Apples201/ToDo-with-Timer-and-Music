@@ -4,6 +4,17 @@ RefocusV3 is available to use here:
 Previous versions of Refocus: \
 [RefocusV2](https://apples201.github.io/RefocusV2/build/) \
 [RefocusV1](https://apples201.github.io/RefocusV1/build/) 
+
+# To run Refocus V3 on your own device
+Unzip the project. \
+Navigate to the root folder. \
+Run the following commands
+### `npm install`
+### `npm start`
+\
+\
+\
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
